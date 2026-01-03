@@ -1,6 +1,7 @@
-# RAG from Scratch
+# rag-from-scratch
 
-A simple Retrieval-Augmented Generation (RAG) implementation using **Ollama** and **ChromaDB**, without LangChain or other high-level libraries.
+> Learn how RAG works by building it from scratch with Ollama and ChromaDB — no LangChain!
+
 
 ## What is RAG?
 
@@ -121,4 +122,5 @@ Example questions:
 
 ## License
 
-MIT
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
