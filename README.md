@@ -16,13 +16,13 @@ Each record in the vector database contains:
 - **Embedding vector** (numerical representation for similarity search)
 
 ```
-┌─────────────────────────────────────────────────────────────────────┐
-│                         VECTOR DATABASE                             │
-│                                                                     │
-│  Record 1: { chunk: "Paris is capital...", embedding: [0.2, 0.8...]}│
-│  Record 2: { chunk: "Eiffel Tower is...",  embedding: [0.3, 0.7...]}│
+┌─────────────────────────────────────────────────────────────────── ──┐
+│                         VECTOR DATABASE                              │
+│                                                                      │
+│  Record 1: { chunk: "Paris is capital...", embedding: [0.2, 0.8...]} │
+│  Record 2: { chunk: "Eiffel Tower is...",  embedding: [0.3, 0.7...]} │
 │  Record 3: { chunk: "Python is a...",      embedding: [-0.5, 0.1...]}│
-└─────────────────────────────────────────────────────────────────────┘
+└──────────────────────────────────────────────────────────────────── ─┘
 ```
 
 ### Query Flow
